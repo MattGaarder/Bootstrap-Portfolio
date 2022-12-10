@@ -1,0 +1,12 @@
+body {
+    background-color: black !important;
+}
+
+h1 {
+    color: pink;
+    background-color: aqua !important;
+}
+
+.my-navbar {
+    background-color: aqua !important;
+}
