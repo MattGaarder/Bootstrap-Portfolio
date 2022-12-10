@@ -1,21 +1,23 @@
 body {
-    background-color: black !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: pink;
-    background-color: aqua !important;
+    color: rgb(26, 19, 150);
+    background-color: rgb(172, 177, 255) !important;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .my-navbar h1 {
-    background-color: aqua !important;
+    background-color: rgb(74, 81, 182) !important;
 }
+
+/* :hover :focuse remember to add these classes to the navbar */
 
 .sign-up form {
     margin: 30px auto !important;
     align-items: center !important;
-    background-color: aquamarine !important;
+    background-color: rgb(112, 120, 231) !important;
     padding: 25px;
     border-radius: 10px;
 }
@@ -26,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-body {
-    background-color: rgb(191, 80, 80) !important;
+    background-color: rgb(128, 136, 238) !important;
     margin: 0% !important;
     margin-top: 30%;
 }
@@ -44,4 +46,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto !important;
     margin-right: 0 !important;
     max-width: 10% !important;
+}
+
+.jumbotron {
+   height: calc(100vh - 200px); 
+   background-image: url("/images/AknNoBckg.png");
+   background-position-y: 62%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content:center;
 }
