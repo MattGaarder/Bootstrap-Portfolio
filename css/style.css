@@ -2,9 +2,10 @@ body {
     background-color: black !important;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: pink;
     background-color: aqua !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .my-navbar h1 {
@@ -28,6 +29,10 @@ h1 {
     background-color: rgb(191, 80, 80) !important;
     margin: 0% !important;
     margin-top: 30%;
+}
+
+.card {
+    margin: 5% auto;
 }
 
 .navbar-nav {
