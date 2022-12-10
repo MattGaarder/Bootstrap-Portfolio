@@ -3,8 +3,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(26, 19, 150);
-    background-color: rgb(172, 177, 255) !important;
+    color: rgb(18, 18, 19);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -12,30 +11,48 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(74, 81, 182) !important;
 }
 
-/* :hover :focuse remember to add these classes to the navbar */
 
-.sign-up form {
-    margin: 30px auto !important;
-    align-items: center !important;
-    background-color: rgb(112, 120, 231) !important;
-    padding: 25px;
-    border-radius: 10px;
-}
 
 .cardContainer {
     /* background-color: white !important; */
     margin: 0% !important;
+    /* align-items: center;
+    justify-items: center; */
 }
 
 .card-body {
+    /* background-color: rgb(128, 136, 238) !important; */
+    /* margin: 0% !important; */
+    /* margin-top: 30%; */
+    /* align-items: center;
+    justify-items: center; */
+}
+
+.card-body h5 {
     background-color: rgb(128, 136, 238) !important;
     margin: 0% !important;
     margin-top: 30%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
 }
 
-.card {
-    margin: 5% auto;
+.right-background {
+    background-image: url(/images/pexels-thisisengineering-3861972.jpg);
+    background-position-y: 62%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 500px;
 }
+
+/* .card {
+    /* margin: 5% auto;
+    align-items: center;
+    justify-items: center; */
+/* } */ 
 
 .navbar-nav {
     margin-left: auto !important;
@@ -57,4 +74,23 @@ h1, h2, h3, h4, h5, h6 {
    display: flex;
    align-items: center;
    justify-content:center;
+}
+
+.jumbotron h1 {
+    font-size: 900%;
+}
+
+.jumbotron p {
+    font-size: 250%;
+    font-weight: 300;
+}
+
+/* :hover :focuse remember to add these classes to the navbar */
+
+.sign-up form {
+    margin: 30px auto !important;
+    align-items: center !important;
+    background-color: rgb(112, 120, 231) !important;
+    padding: 25px;
+    border-radius: 10px;
 }
