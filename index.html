@@ -14,7 +14,7 @@
 <body>
     <!-- navbar from bootstrap -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light my-navbar">
-            <a class="navbar-brand" href="#"><img src="./images/stocks.png"></a>
+            <a class="navbar-brand" href="#"><img src="./assets/stocks.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,14 +32,48 @@
         <div class="my-jumbotroncopy">
             <div class="container">
                 <h1 class="display-4">Matt Gaarder</h1>
-                <p class="lead">Creative Software Enthusiast & Web Developer</p>
+                <p class="lead">Creative Software Enthusiast<br>& Web Developer</p>
             </div>
         </div>
     </div>
     <!-- end of jumbotron from bootstrap -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+                <div class="class-body">
+                    <div class="main-about-card">
+                        <h5>About</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+                <div class="class-body">
+                    <div class="main-work-card">
+                        <h5>Work</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+                <div class="class-body">
+                    <div class="main-contact-card">
+                        <h5>Contact</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
     <div class="container-fluid">
         <div class="row">
-            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="cardContainer col-lg-8 col-md-8 col-sm-12">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">About</h5>
@@ -51,63 +85,62 @@
                             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                               About
                             </button>
-                         </p>    
-                    </div>
-                </div>
-            </div>
-            <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-                <div class="row">
-                    <div class="card-container col-lg-4 col-md-4 col-sm-12">
-                        <div class="card">
-                            <div class="card-body-nest">
-                                <img src="/images/icons8-twitter-circled-ios-16-filled/icons8-twitter-circled-250.png";>
-                                <a href="#" class="card-link"><h5 class="card-title">Twitter</h5></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-container col-lg-4 col-md-4 col-sm-12">
-                        <div class="card">
-                            <div class="card-body-nest">
-                                <h5 class="card-title"></h5>
-                                <img src="/images/github-mark/github-mark.png";>
-                                <a href="#" class="card-link"><h5 class="card-title">GitHub</h5></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-container col-lg-4 col-md-4 col-sm-12">
-                        <div class="card">
-                            <div class="card-body-nest">
-                                <h5 class="card-title"></h5>
-                                <img src="/images/icons8-linkedin-circled-ios-16-filled/icons8-linkedin-circled-250.png";>
-                                <a href="#" class="card-link"><h5 class="card-title">LinkedIn</h5></a>
+                        </p>    
+                        <div class="container">
+                            <div class="row">
+                                <div class="card-container col-lg-12 col-md-6 col-sm-12">
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body">
+                                          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                        </div>
+                                    </div>  
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             
+            
             <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">Contact</p>
-                        <a href="#" class="card-link"> et at nostrmollitia veritatis tempora iure perspiciatis, saepe nemo commodi animi. Debitis, ut.Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title">Contact</h5>
+                        <a href="#" class="card-link">matteus.gaarder@gmail.com</a>
                     </div>
+                </div>
+                    <div class="row padding-0 justify-content-between">
+                        <div class="card-container col-lg-4 col-md-4 col-sm-12 padding-0">
+                            <div class="card">
+                                <div class="card-body-nest card-body-nest-twitter">
+                                    <img src="/assets/icons8-twitter-circled-ios-16-filled/icons8-twitter-circled-250.png";>
+                                    <a href="#" class="card-link"><h5 class="card-title">Twitter</h5></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container col-lg-4 col-md-4 col-sm-12 padding-0">
+                            <div class="card">
+                                <div class="card-body-nest">
+                                    <h5 class="card-title"></h5>
+                                    <img src="/assets/github-mark/github-mark.png";>
+                                    <a href="#" class="card-link"><h5 class="card-title">GitHub</h5></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container col-lg-4 col-md-4 col-sm-12 padding-0">
+                            <div class="card">
+                                <div class="card-body-nest">
+                                    <h5 class="card-title"></h5>
+                                    <img src="/assets/icons8-linkedin-circled-ios-16-filled/icons8-linkedin-circled-250.png";>
+                                    <a href="#" class="card-link"><h5 class="card-title">LinkedIn</h5></a>
+                                </div>
+                            </div>
+                        </div>
+
                 </div>
             </div>
         </div>
-    <div class="container">
-        <div class="row">
-            <div class="card-container col-lg-12 col-md-6 col-sm-12">
-                <div class="collapse" id="collapseExample">
-                    <div class="card card-body">
-                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                    </div>
-                </div>  
-            </div>
-        </div>
-    </div>
+    
     <div class="container-fluid">
         <div class="row">
             <div class="card-container col-lg-6 col-md-6 col-sm-12">

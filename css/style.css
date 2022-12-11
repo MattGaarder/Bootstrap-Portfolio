@@ -1,10 +1,11 @@
 body {
-    background-color: rgb(255, 255, 255) !important;
+    /* background-color: rgb(255, 255, 255) !important; */
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: rgb(18, 18, 19);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: SansPro;
+    text-align: center;
 }
 
 .my-navbar h1 {
@@ -14,10 +15,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .cardContainer {
-    /* background-color: white !important; */
+    background-color: white !important; 
     margin: 0% !important;
-    /* align-items: center;
-    justify-items: center; */
+    padding: -10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-text {
+    font-size: 1.5em;
 }
 
 .card-body {
@@ -28,21 +34,52 @@ h1, h2, h3, h4, h5, h6 {
     justify-items: center; */
 }
 
+.card-body-nest-twitter img {
+    margin-top: 12px;
+}
+
 .card-body-nest img {
     max-width: 80px;
 }
 
-.card-body h5 {
-    background-color: rgb(128, 136, 238) !important;
+.card-body-nest h5 {
+    font-weight: bolder;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.main-about-card h5 {
+    height: 70px;
+    font-size: 2.5em;
+    font-weight:bolder;
+}
+
+.main-work-card h5 {
+    height: 70px;
+    font-size: 2.5em;
+    font-weight:bolder;
+}
+
+.main-contact-card h5 {
+    height: 70px;
+    font-size: 2.5em;
+    font-weight:bolder;
+}
+
+/* .card-body h5 {
     margin: 0% !important;
     margin-top: 30%;
     align-items: center;
     justify-items: center;
     text-align: center;
-}
+    font-weight: bolder;
+} */
 
 .right-background {
-    background-image: url(/images/pexels-thisisengineering-3861972.jpg);
+    background-image: url(/assets/pexels-thisisengineering-3861972.jpg);
     background-position-y: 62%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,6 +100,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 0 !important;
 }
 
+.card-container {
+    align-items: center;
+    text-align: center;
+}
+
 .navbar img {
     margin-left: auto !important;
     margin-right: 0 !important;
@@ -70,8 +112,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-   height: calc(100vh - 200px); 
-   background-image: url("/images/AknNoBckg.png");
+   height: calc(100vh - 170px); 
+   background-image: url("/assets/AknNoBckg.png");
    background-position-y: 62%;
    background-repeat: no-repeat;
    background-size: cover;
@@ -85,8 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron p {
-    font-size: 250%;
-    font-weight: 300;
+    font-size: 300%;
+    font-weight: 320;
 }
 
 /* :hover :focuse remember to add these classes to the navbar */
@@ -98,3 +140,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 25px;
     border-radius: 10px;
 }
+
+@font-face {
+    font-family: SansPro;
+    src: url("/assets/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+  }
+  
+  div {
+    font-family: SansPro;
+  }
