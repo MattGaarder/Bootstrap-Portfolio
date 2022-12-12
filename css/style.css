@@ -15,11 +15,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .cardContainer {
-    background-color: white !important; 
+    background-color: black!important; 
     margin: 0% !important;
-    padding: -10px;
+    padding: 10px;
     align-items: center;
     justify-items: center;
+    margin-top: 0%;
 }
 
 .card-text {
@@ -52,19 +53,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-about-card h5 {
-    height: 70px;
     font-size: 2.5em;
     font-weight:bolder;
 }
 
 .main-work-card h5 {
-    height: 70px;
     font-size: 2.5em;
     font-weight:bolder;
 }
 
 .main-contact-card h5 {
-    height: 70px;
     font-size: 2.5em;
     font-weight:bolder;
 }
@@ -114,12 +112,13 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron {
    height: calc(100vh - 170px); 
    background-image: url("/assets/AknNoBckg.png");
-   background-position-y: 62%;
+   background-position-y: 65%;
    background-repeat: no-repeat;
    background-size: cover;
    display: flex;
    align-items: center;
    justify-content:center;
+   margin-bottom: 0%;
 }
 
 .jumbotron h1 {
@@ -149,3 +148,17 @@ h1, h2, h3, h4, h5, h6 {
   div {
     font-family: SansPro;
   }
+
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: none;
+    background-clip: border-box;
+    border: 5px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
