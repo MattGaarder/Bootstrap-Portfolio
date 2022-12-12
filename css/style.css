@@ -23,8 +23,8 @@ h1, h2, h3, h4, h5, h6 {
     /* background-color: black!important;  */
     margin: 0% !important;
     padding: 0px;
-    align-items: center;
-    justify-items: center;
+    /* align-items: center;
+    justify-items: center; */
     margin-top: 0%;
     z-index: 1;
     background-color: rgb(213,176,115);
@@ -52,6 +52,9 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 69px;
 }
 
+.card img {
+    max-width: 65px;
+}
 
 
 .card-body-nest h5 {
@@ -89,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .right-background {
-    background-image: url(/assets/pexels-thisisengineering-3861972.jpg);
+    background-image: url(/assets/DevConcept.png);
     background-position-y: 62%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,6 +147,16 @@ h1, h2, h3, h4, h5, h6 {
 .card-container-front-end-image {
     margin: 0px !important;
     margin-top: 20px !important;
+}
+
+.card-container-project {
+    margin-top: 2%;
+    padding: 0%;
+    justify-content: space-around;
+}
+
+.card-container-second {
+    margin-top: 2%;
 }
 
 .jumbotron {
