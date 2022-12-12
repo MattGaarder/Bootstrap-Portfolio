@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 69px;
 }
 
-.card img {
+.card-body img {
     max-width: 65px;
 }
 
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content:center;
-    height: 500px;
+    height: 560px;
 }
 
 .left-background {
