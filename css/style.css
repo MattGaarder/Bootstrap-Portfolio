@@ -1,72 +1,82 @@
 body {
-    background-color: rgb(250, 6, 6) !important;
+    background-color: rgb(213,176,115) !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(18, 18, 19);
+    color: rgb(0, 0, 0);
     font-family: SansPro;
     text-align: center;
-    z-index: 1;
-}
-
-.my-navbar h1 {
-    background-color: rgb(74, 81, 182) !important;
-}
-
-.navbar {
-    background-color:rgb(213,176,115) !important;
-    z-index: 1;
-}
-
-
-.cardContainer {
-    /* background-color: black!important;  */
-    margin: 0% !important;
-    padding: 0px;
-    /* align-items: center;
-    justify-items: center; */
-    margin-top: 0%;
-    z-index: 1;
-    background-color: rgb(213,176,115);
 }
 
 .card-text {
     font-size: 1.5em;
 }
 
-
-
-.card-body {
-    /* background-color: rgb(128, 136, 238) !important; */
-    /* margin: 0% !important; */
-    /* margin-top: 30%; */
-    /* align-items: center;
-    justify-items: center; */
+.navbar {
+    background-color:rgb(213,176,115) !important;
 }
 
-.card-body-nest-twitter img {
-    margin-top: 12px;
-}
-
-.card-body-nest img {
-    max-width: 69px;
-}
-
-.card-body img {
-    max-width: 65px;
+.navbar-nav {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    background-color:rgb(213,176,115);
 }
 
 
-.card-body-nest h5 {
-    font-weight: bolder;
+.navbar img {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    max-width: 10% !important;
+    background-color:rgb(213,176,115);
 }
 
-.padding-0{
-    padding-right:0;
-    padding-left:0;
+.card-container-nav {
+    background-color: rgb(213,176,115);
 }
 
-.main-about-card h5 {
+
+/* do not touch-makes nav weird white space fix*/
+.class-body {
+    padding: 3px;
+    background-color: rgb(213,176,115);
+}
+
+
+.jumbotron {
+    height: calc(100vh - 160px); 
+    background-image: url("/assets/AknNoBckg copy1.png");
+    background-position-y: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 0%;
+    background-color: rgb(239, 223, 198) !important;
+    text-align: left;
+ }
+
+ .display-4 {
+    text-align: left;
+ }
+ 
+ .jumbotron h1 {
+     font-size: 900%;
+     color: #000;
+     margin-top: 23%;
+ }
+ 
+ @media screen (max-width: 600px) {
+     .jumbotron h1 {
+         margin-top: 0%;
+     }
+ }
+ 
+ .jumbotron p {
+     font-size: 300%;
+     font-weight: 320;
+     z-index: 1;
+ }
+
+ .main-about-card h5 {
     font-size: 2.5em;
     font-weight:bolder;
 }
@@ -81,14 +91,30 @@ h1, h2, h3, h4, h5, h6 {
     font-weight:bolder;
 }
 
-/* .card-body h5 {
-    margin: 0% !important;
-    margin-top: 30%;
-    align-items: center;
-    justify-items: center;
-    text-align: center;
-    font-weight: bolder;
-} */
+.row {
+    margin-top: 1%;
+}
+
+
+.card-body-nest-twitter img {
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+
+
+
+.card-body-nest img {
+    max-width: 69px;
+    background-color: none;
+}
+
+.card-body img {
+    max-width: 65px;
+}
+
+
+
 
 
 .right-background {
@@ -100,7 +126,17 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     justify-content:center;
     height: 560px;
+    display: inline;
 }
+
+.right-background p {
+    margin-top: 170px;
+    padding: 7%;
+    font-size: 1.9em;
+
+}
+
+
 
 .left-background {
     background-image: url(/assets/pexels-thisisengineering-3861972.jpg);
@@ -113,31 +149,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 500px;
 }
 
-/* .card {
-    margin: 5% auto;
-    align-items: center;
-    justify-items: center;
-}  */
 
-.navbar-nav {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-    background-color:rgb(213,176,115);
-    z-index: 1;
+.my-jumbotroncopy {
+    width: 100%;
 }
 
-.card-container {
-    align-items: center;
-    text-align: center;
-    z-index: 1;   
-}
 
-.navbar img {
-    margin-left: auto !important;
-    margin-right: 0 !important;
-    max-width: 10% !important;
-    background-color:rgb(213,176,115);
-}
 
 .card-container-front-end {
     margin: 0px !important;
@@ -151,56 +168,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-container-project {
     margin-top: 2%;
-    padding: 0%;
-    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
 }
+
+
 
 .card-container-second {
     margin-top: 2%;
 }
 
-.jumbotron {
-   height: calc(100vh - 170px); 
-   background-image: url("/assets/AknNoBckg copy1.png");
-   background-position-y: 65%;
-   background-repeat: no-repeat;
-   background-size: cover;
-   display: flex;
-   align-items: center;
-   justify-content:center;
-   margin-bottom: 0%;
-   background-color: rgb(239, 223, 198) !important;
-   z-index: -1;
-}
 
-/* .jumbotron:before { 
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    background-image: url("/assets/AknNoBckg\ copy1.png");
-    background-repeat: no-repeat;
-    background-position-y: 65%;
-    background-size: cover;
-    z-index: -0.9;
-    
-} */
-
-.jumbotron h1 {
-    font-size: 900%;
-    z-index: 1;
-    color: #000;
-}
-
-.jumbotron p {
-    font-size: 300%;
-    font-weight: 320;
-    z-index: 1;
-}
 
 /* :hover :focuse remember to add these classes to the navbar */
 
@@ -229,12 +207,32 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: none;
+    background-color:rgb(239,223,198);
     background-clip: border-box;
-    background-color:rgb(213,176,115);
     border-radius: 0.25rem;
+    border-color: #000;
     margin: 0px;
 }
+
+.card-o {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: none;
+    background-clip: border-box;
+    background-color: none;
+    border-radius: 0.25rem;
+    /* margin: -20px;
+    margin-left: -20px;
+    margin-right: -20px; */
+    padding:0%
+}
+
+
 
 .container-fluid {
     background-color:rgb(239,223,198);
