@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
  .jumbotron h1 {
      font-size: 900%;
      color: #000;
-     margin-top: 23%;
+     margin-top: 15%;
  }
  
 
@@ -69,20 +69,10 @@ h1, h2, h3, h4, h5, h6 {
  .jumbotron p {
      font-size: 300%;
      font-weight: 320;
-     z-index: 1;
  }
 
- .main-about-card h5 {
-    font-size: 2.5em;
-    font-weight:bolder;
-}
 
-.main-work-card h5 {
-    font-size: 2.5em;
-    font-weight:bolder;
-}
-
-.main-contact-card h5 {
+.main-card h5 {
     font-size: 2.5em;
     font-weight:bolder;
 }
@@ -91,36 +81,117 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1%;
 }
 
+/* End of navbar, jumbotron, main-nav. Above works and is simplified to the best of my ability */
 
-.card-body-nest-twitter img {
-    margin-top: 12px;
-    margin-left: 50px;
-}
-
-
-
+/* This controls the size of the contact icons */
 
 .card-body-nest img {
-    max-width: 69px;
+    max-width: 65px;
     background-color: none;
 }
 
+
+/* The card-body controls the size of skills icons */
 .card-body img {
-    max-width: 65px;
+    max-width: 60px;
+    background-color: none;
 }
 
 
 
+
+
+
+
+
+
+.card-linkedin {
+    align-items: flex-start;
+}
+
+.card-github {
+    align-items: center;
+}
+
+.card-twitter {
+    align-items: flex-end;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:rgb(239,223,198);
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    border-color: #000;
+    margin: 0px;
+}
+
+.card-o {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: none;
+    background-clip: border-box;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.css {
+    align-items: flex-end;
+}
+
+.js {
+    align-items: center;
+}
+
+.react {
+    align-items: flex-start;
+}
+
+.js2 {
+    align-items: flex-end;
+}
+
+.big-s {
+    margin-left: 40px;
+}
+
+.photoshop {
+    margin-right: 30px;
+}
+
+.premiere {
+    align-items: flex-start;
+}
+
+.container-fluid {
+    background-color:rgb(239,223,198);
+}
+
+.card-container {
+    padding: 0;
+}
+
+.card-body {
+    padding: 0;
+}
 
 
 .right-background {
     background-image: url(/assets/DevConcept.png);
-    background-position-y: 62%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content:center;
     height: 560px;
     display: inline;
 }
@@ -194,43 +265,4 @@ h1, h2, h3, h4, h5, h6 {
   div {
     font-family: SansPro;
   }
-
-  .card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color:rgb(239,223,198);
-    background-clip: border-box;
-    border-radius: 0.25rem;
-    border-color: #000;
-    margin: 0px;
-}
-
-.card-o {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: none;
-    background-clip: border-box;
-    background-color: none;
-    border-radius: 0.25rem;
-    /* margin: -20px;
-    margin-left: -20px;
-    margin-right: -20px; */
-    padding:0%
-}
-
-
-
-.container-fluid {
-    background-color:rgb(239,223,198);
-}
 
