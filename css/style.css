@@ -12,14 +12,22 @@ h1, h2, h3, h5, h6 {
     font-size: 1.5em;
 }
 
+.project p {
+    font-size: 1.3em;
+}
+
 .navbar {
     background-color:rgb(213,176,115) !important;
+    border-bottom: 5px;
+    border-color: black;
+    border-width: 10px !important;
 }
 
 .navbar-nav {
     margin-left: auto !important;
     margin-right: 0 !important;
     background-color:rgb(213,176,115);
+    
 }
 
 
@@ -32,6 +40,7 @@ h1, h2, h3, h5, h6 {
 
 .card-container-nav {
     background-color: rgb(213,176,115);
+    padding: 0;
 }
 
 
@@ -82,7 +91,7 @@ h1, h2, h3, h5, h6 {
 }
 
 .row {
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 /* End of navbar, jumbotron, main-nav. Above works and is simplified to the best of my ability */
@@ -100,8 +109,8 @@ h1, h2, h3, h5, h6 {
     background-clip: border-box;
     border-radius: 0.25rem;
     border-color: #000; 
-    /* padding: 10px; */
-    /* border: none; */
+    /* padding: 0px;
+    border: none; */
 }
 
 .card-project {
@@ -217,8 +226,12 @@ h1, h2, h3, h5, h6 {
     margin-top: 3%;
 }
 
+.card-body-nest {
+    margin-top: 20%;
+}
+
 .card-contact {
-    margin-top: 15%;
+    margin-top: -6%;
     align-items: flex-start;
     
 }
@@ -236,6 +249,7 @@ h1, h2, h3, h5, h6 {
 
 .card-container {
     padding: 0;
+    margin-top: 1%;
 }
 
 .card-body {
@@ -323,10 +337,19 @@ h1, h2, h3, h5, h6 {
 
 
 
-
 .main-card, .card-about, .card-contact, .card-body-nest, .card-front-end, .card-skills, .card-image, .left-background  {
-    border: none !important;
+    /* border: none !important; */
 }
+
+.main-card {
+    border-color: black;
+    border-bottom: none;
+    border-width: 5px;
+    border-radius: 10px;
+    border-left: none;
+    box-shadow: 2px;
+}
+
 
 .card-contact h4 {
     text-align: none !important;
@@ -339,4 +362,11 @@ h1, h2, h3, h5, h6 {
     text-align: none !important;
     border: 0px;
     padding: 0px;
+}
+
+nav {
+    background-color:rgb(213,176,115) !important;
+    border-bottom: 5px;
+    border-color: black !important;
+    border-width: 10px !important;
 }
