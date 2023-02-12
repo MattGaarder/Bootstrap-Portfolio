@@ -54,7 +54,7 @@ h1, h2, h3, h5, h6 {
 
 .jumbotron {
     height: calc(100vh - 160px); 
-    background-image: url("./assets/AknNoBckg copy1.png");
+    background-image: url("/assets/AknNoBckg copy1.png");
     background-position-y: 65%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,18 +210,28 @@ h1, h2, h3, h5, h6 {
     margin-left: 20%;
 }
 
-.photoshop {
+.icon {
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+/* .photoshop {
     align-items: center;
     margin-right: 20%;
     margin-top: 13.5%;
-}
+} */
 
-.premiere {
+/* .premiere {
     align-items: flex-start;
     margin-top: 14%;
-}
+} */
 
 /* end of skills*/
+
+
+.card-icon {
+    margin: 3rem;
+}
 
 .card-about, .card-contact {
     margin-top: 3%;
@@ -382,4 +392,8 @@ h1, h2, h3, h5, h6 {
     border-top: none;
     border-left: none;
     border-right: none;
+}
+
+.d-flex {
+    display: ;
 }
