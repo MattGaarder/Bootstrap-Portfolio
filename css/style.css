@@ -54,7 +54,7 @@ h1, h2, h3, h5, h6 {
 
 .jumbotron {
     height: calc(100vh - 160px); 
-    background-image: url("/assets/AknNoBckg-copy.png");
+    background-image: url("../assets/AknNoBckg-copy.png");
     background-position-y: 65%;
     background-repeat: no-repeat;
     background-size: cover;
