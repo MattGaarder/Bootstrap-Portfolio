@@ -287,7 +287,7 @@ h1, h2, h3, h5, h6 {
 
 
 .left-background {
-    background-image: url(../assets/pexels-thisisengineering-3861972.jpg);
+    background-image: url(/assets/pexels-thisisengineering-3861972.jpg);
     background-position-y: 62%;
     background-repeat: no-repeat;
     background-size: cover;
